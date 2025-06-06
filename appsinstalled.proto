@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message UserApps {
+    required double lat = 1;
+    required double lon = 2;
+    repeated uint32 apps = 3;
+}
